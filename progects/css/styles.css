@@ -1,8 +1,24 @@
-.header_link {
- color: rgb(179, 255, 0);
+:root {
+ --basic-color-text:$ffffff;
+ --basic-color-bg: $ffffff;
 }
-.header_link :hover {
-    color: hsl(271, 76%, 53%);
-    text-decoration: solid;
 
+body{
+    font-family: sans-serif;  
+    }
+.header_link::selection {
+     color: #981414;
+     background-color: blue;
+    }
+
+
+.text > span {
+    text-decoration: linethrough;
 }
+
+.link {
+    text-decoration: none;
+}
+
+
+
